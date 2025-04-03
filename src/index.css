@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+:root {
+    --custom-blue: #212428;
+    --text-color:#c4cfde
+  }
+  
+  .bodyColor {
+    background-color: var(--custom-blue);
+  }
+  .lightText {
+    color: var(--text-color);
+  }
+.boxBg{
+    background: linear-gradient(145deg, #1e2024, #23272b);
+}
+  
+
+
+.bannerIcon{
+    @apply w-12 h-12 bg-black  text-xl items-center justify-center inline-flex rounded-md  shadow-md hover:translate-y-1
+    transition-all hover:text-pink-600 cursor-pointer duration-300 
+}
+.card{
+    @apply   text-gray-200 text-xl   rounded-md  shadow-xl  group-hover:-translate-y-5
+    transition-all  hover:bg-gray-950 cursor-pointer duration-300 
+}
+.cards{
+  @apply   rounded-md  shadow-xl shadow-black
+  transition-all  hover:bg-gray-950 cursor-pointer duration-300 
+}
+
+.active{
+    @apply text-pink-600;
+}
+.project{
+  @apply   text-gray-200 text-xl   rounded-md  shadow-2xl shadow-black
+  transition-all cursor-pointer duration-300 
+}
+
+.projectIcon{
+  @apply w-9 h-9 bg-black text-gray-200 text-xl items-center justify-center inline-flex rounded-full  shadow-md hover:scale-110
+  transition-all hover:text-pink-600 cursor-pointer duration-300 
+}
+.resumeLi{
+  @apply w-full h-20 bg-black text-xl text-gray-100 flex justify-center cursor-pointer hover:bg-gray-800 duration-100 items-center border-[1px] rounded-none
+}
+html{
+  scroll-behavior: smooth;
+}
