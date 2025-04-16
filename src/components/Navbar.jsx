@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import profile from '../assets/images/profile5.jpg'
+import profile from '../assets/images/profile9.png'
 import { navilinksdata } from '../constants'
 import {Link} from 'react-scroll'
 import { motion } from 'framer-motion'
