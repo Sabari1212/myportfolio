@@ -2,7 +2,7 @@ import React from 'react'
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
 import { FaFacebookF, FaTwitter, FaLinkedinIn, FaReact, FaInstagram } from "react-icons/fa";
 import { SiTailwindcss, SiExpress, SiNodedotjs, SiReact, SiSpringboot } from "react-icons/si";
-import profile from '../assets/images/profile7.png'
+import profile from '../assets/images/profile10.png'
 
 const Banner = () => {
     const [text] = useTypewriter({
